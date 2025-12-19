@@ -4,7 +4,7 @@ const { stripVTControlCharacters } = require("node:util");
 const { resolve } = require("node:path");
 const { execSync } = require("node:child_process");
 
-const executable = require.resolve("../../bin/mocha");
+const executable = require.resolve("mocha");
 const flag = "--help";
 
 /**

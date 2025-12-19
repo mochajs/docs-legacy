@@ -1,0 +1,35 @@
+{
+  "name": "docs-legacy",
+  "type": "commonjs",
+  "description": "Legacy docs website for Mocha",
+  "license": "MIT",
+  "scripts": {
+    "api": "jsdoc -c jsdoc.conf.json",
+    "build": "eleventy",
+    "build:all": "run-s api build",
+    "clean": "rimraf _site api",
+    "format": "prettier --write .",
+    "preview": "http-server _site -o",
+    "watch": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-plugin-inclusive-language": "^1.0.3",
+    "@types/node": "^22.15.3",
+    "@mocha/docdash": "^4.0.1",
+    "http-server": "^14.1.1",
+    "jsdoc": "^3.6.7",
+    "jsdoc-ts-utils": "^2.0.1",
+    "markdown-it": "^12.3.2",
+    "markdown-it-anchor": "^8.4.1",
+    "markdown-it-attrs": "^4.1.3",
+    "markdown-it-emoji": "^2.0.0",
+    "markdown-it-prism": "^2.2.2",
+    "markdown-toc": "^1.2.0",
+    "mocha": "^11.7.5",
+    "needle": "^2.5.0",
+    "npm-run-all2": "^6.2.0",
+    "prettier": "3.6.2",
+    "uslug": "^1.0.4"
+  }
+}

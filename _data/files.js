@@ -5,11 +5,11 @@ const { promises: fs } = require("node:fs");
 
 const PROJECT_ROOT_DIR = resolve(__dirname, "..", "..");
 const FILES = [
-  {
-    slug: "simplereporter",
-    path: require.resolve("../../test/integration/fixtures/simple-reporter.js"),
-    header: "// my-reporter.js",
-  },
+  // {
+  //   slug: "simplereporter",
+  //   path: require.resolve("../../test/integration/fixtures/simple-reporter.js"),
+  //   header: "// my-reporter.js",
+  // },
 ];
 
 const loadFile = async (path, { header } = {}) => {

@@ -7,7 +7,7 @@ description: "Mocha is a feature-rich JavaScript test framework running on Node.
 <!-- Disable MD051 due to the rule not aware of this file is specifically converted to HTML -->
 <!--markdownlint-disable-file MD051 -->
 
-<div class="admonition">This site has a new look, try it out at <a href="next">mochajs.org/next</a>!</div>
+<div class="admonition">This site has a new look, try it out at <a href="https://mochajs.org">mochajs.org</a>!</div>
 
 Mocha is a feature-rich JavaScript test framework running on [Node.js][] and in the browser, making asynchronous testing _simple_ and _fun_. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases. Hosted on [GitHub][github-mocha].
 

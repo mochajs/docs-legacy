@@ -1,0 +1,33 @@
+{
+  "markdown": {
+    "hardwrap": true,
+    "parser": "gfm"
+  },
+  "mocha-docdash": {
+    "sort": true,
+    "static": false
+  },
+  "opts": {
+    "destination": "api",
+    "encoding": "utf8",
+    "recurse": true,
+    "template": "node_modules/@mocha/docdash",
+    "tutorials": "api-tutorials",
+    "verbose": true
+  },
+  "plugins": ["./node_modules/jsdoc-ts-utils", "plugins/markdown"],
+  "source": {
+    "include": ["node_modules/mocha/lib/", "./API.md", "node_modules/mocha/bin"]
+  },
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "templates": {
+    "cleverLinks": false,
+    "default": {
+      "includeDate": false,
+      "outputSourceFiles": true
+    },
+    "monospaceLinks": false
+  }
+}
